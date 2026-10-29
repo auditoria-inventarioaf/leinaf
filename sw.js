@@ -1,7 +1,7 @@
 /* LEINAF-PRO 🗂️ — service worker
    Guarda una copia de la app en el teléfono para que abra sin señal.
    Solo almacena los archivos de la app; nunca toca ni envía los datos del inventario. */
-const CACHE = 'leinaf-pro-v1.1';
+const CACHE = 'leinaf-pro-v1.2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
